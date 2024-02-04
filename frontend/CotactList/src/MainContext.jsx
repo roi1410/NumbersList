@@ -23,7 +23,7 @@ const MainContext = ({ children }) => {
   const name = "roi";
   const id = "65b90699fcfc9d186bddc1c0";
 
-  const operationUrl = "http://localhost:8000/api/phonNumbers/";
+  const operationUrl = "https://numberslist.onrender.com/api/phonNumbers/";
 
   const [DB, setDB] = useState([
     {
